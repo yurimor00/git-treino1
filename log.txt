@@ -1,0 +1,12 @@
+git config --global user.name yurimor00
+git config --global user.email ydrm2007@gmail.com
+mkdir git-treino1
+cd git-treino1
+git init
+git remote add origin https://github.com/yurimor00/git-treino1.git
+git clone https://github.com/yurimor00/git-treino1.git
+cd git-treino1
+echo. > log.txt
+git add log.txt
+git commit -m "novo log.txt
+git push origin master:main
